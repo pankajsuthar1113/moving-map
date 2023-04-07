@@ -1,0 +1,310 @@
+@import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Rubik:wght@300;400;500;700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 970px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+/* utility classes */
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space {
+    justify-content: space-between;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* root classes */
+.max-w355{
+    max-width: 300px;
+}
+.fs-xsm {
+    font-size: var(--fs-xsm)
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+/* weight */
+.fw-sm {
+    font-weight: var(--fw-sm);
+}
+
+.fw-md {
+    font-weight: var(--fw-md);
+}
+
+.fw-lg {
+    font-weight: var(--fw-lg);
+}
+
+/* font family */
+.ff-dmsans {
+    font-family: var(--ff-dmsans);
+
+}
+
+/* line height  */
+.line-height26 {
+    line-height: 26px;
+}
+
+.line-height52 {
+    line-height: 52px;
+}
+
+.line-height28 {
+    line-height: 28px;
+}
+
+.line-height32 {
+    line-height: 32px;
+}
+
+/* font-clr */
+.clr-blue {
+    color: var(--clr-blue);
+}
+
+.clr-grey {
+    color: var(--clr-grey);
+}
+
+.clr-white {
+    color: var(--clr-white);
+}
+
+/* rows and col classes */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: -12px;
+    padding-left: -12px;
+}
+
+.col-1 {
+    width: 8.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-9 {
+    width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-11 {
+    width: 91.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+/* span */
+.line {
+    display: flex;
+    border: 2px solid rgba(235, 234, 237, 1);
+    ;
+    width: 368px;
+
+}
+
+.box {
+    background-color: #EBEAED;
+    width: 470px;
+    height: 555px;
+    border-radius: 10px;
+    padding: 10px 42px;
+}
+
+.emailbox {
+    border-radius: 100px;
+    width: 370px;
+    height: 50px;
+    border: 2px solid #EBEAED;
+    padding: 12px 24px;
+}
+
+#messagebox {
+    resize: none;
+    width: 370px;
+    height: 170px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 2px solid #EBEAED;
+    border-radius: 10px;
+    padding: 13px 19px;
+
+}
+
+.namebox {
+    border-radius: 100px;
+    width: 270px;
+    height: 50px;
+    border: 2px solid #EBEAED;
+    padding: 12px 24px;
+}
+
+.send-button {
+    color: #FFFFFF;
+    background-color: aqua;
+    padding: 12px 23px;
+    border-radius: 100px;
+    border: none;
+}
+.send-button:hover{
+    background-color: #FFFFFF;
+    color: aqua;
+}
+
+/* margin classes */
+.mt48 {
+    margin-top: 48px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt34 {
+    margin-top: 34px;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.mt44 {
+    margin-top: 44px;
+}
+
+.mt6 {
+    margin-top: 6px;
+}
+
+.ml16 {
+    margin-left: 16px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.vh_100{height: 100vh;}
+
+/* @media (max-width:992px) {
+    .col-lg-12{
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    
+} */
+ /* @media (max-width:768px) {
+    .col-6{
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    
+} */
